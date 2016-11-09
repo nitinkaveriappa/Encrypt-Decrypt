@@ -89,8 +89,8 @@ public class EncryptText {
 	public static void main(String args[]) {
 
         //Update this field to the value for which the encryption should be performed.
-		final String strToEncrypt = "D0rpssD3";
-		final String strPssword = "encryptor key";
+		final String strToEncrypt = "Password";
+		final String strPssword = "Encrypt Key";
 		EncryptText.setKey(strPssword);
 
         //Calling the encrypt method by passing the String to Encrypt
