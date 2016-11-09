@@ -18,7 +18,7 @@ public class DecryptText {
      * decrypts the encryptedCredential String by passing over to the decrypt method
      */
 	public DecryptText(String encryptedCredential) {
-		final String strPssword = "encryptor key";
+		final String strPssword = "Encrypt key";
 		DecryptText.setKey(strPssword);
 		DecryptText.decrypt(encryptedCredential.trim()); 
 	}
